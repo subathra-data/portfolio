@@ -5,50 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subathra's Portfolio</title>
     <style>
-    :root { --primary: #38bdf8; --bg: #0f172a; --card: #1e293b; --text: #f1f5f9; }
-    body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; }
-    header { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 60px 20px; text-align: center; border-bottom: 2px solid var(--primary); }
-    h1 { font-size: 2.5rem; color: var(--primary); margin: 0; text-transform: uppercase; letter-spacing: 2px; }
-    .container { max-width: 850px; margin: 40px auto; padding: 20px; }
-    .card-design { background: var(--card); padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
-    h2 { color: var(--primary); border-bottom: 1px solid #334155; padding-bottom: 10px; }
-    .skill-tag { display: inline-block; background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 8px 16px; border-radius: 50px; margin: 5px; font-weight: bold; border: 1px solid var(--primary); }
-    footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9rem; }
+        :root { --primary: #38bdf8; --bg: #0f172a; --card: #1e293b; --text: #f1f5f9; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 60px 20px; text-align: center; border-bottom: 2px solid var(--primary); }
+        h1 { font-size: 2.5rem; color: var(--primary); margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        .contact-info { margin-top: 15px; color: #94a3b8; }
+        .container { max-width: 850px; margin: 40px auto; padding: 20px; }
+        .card-design { background: var(--card); padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
+        h2 { color: var(--primary); border-bottom: 1px solid #334155; padding-bottom: 10px; margin-top: 0; }
+        .skill-tag { display: inline-block; background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 8px 16px; border-radius: 50px; margin: 5px; font-weight: bold; border: 1px solid var(--primary); }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9rem; }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
-    
 </head>
 <body>
 
 <header>
     <h1>SUBATHRA.B</h1>
-    <p>DHANALAKSHMI SRINIVASAN ENGINEERING COLLEGE - B.Tech IT</p>
+    <div class="contact-info">
+        9790513818 | subathra5002@gmail.com <br>
+        <a href="https://www.linkedin.com/in/subathra-b-172b5b342" target="_blank">LinkedIn Profile</a>
+    </div>
 </header>
 
-<div class="card-design">
-    <h2>About Me</h2>
-    <p>Hi! I'm a student learning the ropes of software development. I recently completed a 10-day intensive Java training and I'm excited to build new things.</p>
-
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <div class="skill-tag">Core Java</div>
-        <div class="skill-tag">Python</div>
-        <div class="skill-tag">OOPs Concepts</div>
-        <div class="skill-tag">Recursion & Methods</div>
-        <div class="skill-tag">PyCharm</div>
+<div class="container">
+    <div class="card-design">
+        <h2>Profile Summary</h2>
+        <p>Possess a strong foundation in Java and Python along with practical experience in Data Science through industry-recognized internships. Quick learner with strong problem-solving and teamwork skills, seeking opportunities to grow and contribute in the IT field.</p>
     </div>
 
-    <h2>Projects & Training</h2>
-    <ul>
-        <li><strong>Java Intensive Training:</strong> Completed 10 days of hands-on Java workshop.</li>
-        <li><strong>Mock Interviews:</strong> Participated in college-level mock interviews for career readiness.</li>
-    </ul>
+    <div class="card-design">
+        <h2>Education</h2>
+        <p><strong>B. Tech - Dhanalakshmi Srinivasan Engineering College</strong> (2023 - 2027) <br> CGPA: 8.62</p>
+        <p><strong>Schooling - Swamy Vivekananda Vidyalaya Hr. Sec. School</strong> (Passed 2023) <br> Score: 488</p>
+    </div>
 
-    <h2>Contact</h2>
-    <p>Feel free to reach out to me via my GitHub profile!</p>
+    <div class="card-design">
+        <h2>Experience</h2>
+        <p><strong>Intern | Alpha Innovation (Data Science Domain)</strong></p>
+        <ul>
+            <li>Analyzed datasets to perform basic data cleaning and exploratory data analysis.</li>
+            <li>Collaborated with a team to solve logical problems and deliver tasks within deadlines.</li>
+        </ul>
+        <p><strong>Industrial Training | NLC India Limited (Navaratna PSU)</strong></p>
+        <ul>
+            <li>Gained exposure to professional industry standards and systematic workflow management in a government enterprise.</li>
+        </ul>
+    </div>
+
+    <div class="card-design">
+        <h2>Technical Skills</h2>
+        <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python (Basics)</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Data Cleaning</span>
+            <span class="skill-tag">Data Visualization</span>
+        </div>
+    </div>
+
+    <div class="card-design">
+        <h2>Projects</h2>
+        <p><strong>Data Transformation to Excel</strong></p>
+        <ul>
+            <li>Converted raw data (TXT, CSV, JSON) into structured Excel format.</li>
+            <li>Performed data cleaning, filtering, and formatting using Python, Pandas, and XlsxWriter.</li>
+        </ul>
+    </div>
+
+    <div class="card-design">
+        <h2>Certifications</h2>
+        <ul>
+            <li>NPTEL: Introduction to Industry 4.0 and Industrial Internet of Things (72%)</li>
+            <li>NPTEL: Python for Data Science (53%)</li>
+        </ul>
+    </div>
 </div>
 
 <footer>
-    &copy; 2026 Subathra Portfolio
+    &copy; 2026 SUBATHRA.B | Professional Portfolio
 </footer>
 
 </body>
