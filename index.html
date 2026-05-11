@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subathra's Portfolio</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: #f9f9f9; color: #333; }
-        header { background: #2c3e50; color: white; padding: 40px 20px; text-align: center; }
-        .container { max-width: 800px; margin: 20px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; color: #2c3e50; }
-        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
-        .skill-tag { background: #e1e8ed; padding: 8px 15px; border-radius: 20px; font-weight: bold; }
-        footer { text-align: center; padding: 20px; color: #777; }
+    :root { --primary: #38bdf8; --bg: #0f172a; --card: #1e293b; --text: #f1f5f9; }
+    body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; }
+    header { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 60px 20px; text-align: center; border-bottom: 2px solid var(--primary); }
+    h1 { font-size: 2.5rem; color: var(--primary); margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+    .container { max-width: 850px; margin: 40px auto; padding: 20px; }
+    .card-design { background: var(--card); padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); }
+    h2 { color: var(--primary); border-bottom: 1px solid #334155; padding-bottom: 10px; }
+    .skill-tag { display: inline-block; background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 8px 16px; border-radius: 50px; margin: 5px; font-weight: bold; border: 1px solid var(--primary); }
+    footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9rem; }
     </style>
+    
 </head>
 <body>
 
@@ -21,7 +24,7 @@
     <p>DHANALAKSHMI SRINIVASAN ENGINEERING COLLEGE - B.Tech IT</p>
 </header>
 
-<div class="container">
+<div class="card-design">
     <h2>About Me</h2>
     <p>Hi! I'm a student learning the ropes of software development. I recently completed a 10-day intensive Java training and I'm excited to build new things.</p>
 
